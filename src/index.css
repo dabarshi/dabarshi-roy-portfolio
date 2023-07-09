@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+@layer components {
+    .open-user-menu {
+        @apply z-50 absolute top-full right-0 my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow;
+    }
+
+    .hide-user-menu {
+        @apply z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow;
+    }
+
+    .nav-item {
+        @apply items-center justify-between w-full md:flex md:w-auto md:order-1;
+    }
+}
