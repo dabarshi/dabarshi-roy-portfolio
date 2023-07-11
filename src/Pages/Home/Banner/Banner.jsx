@@ -1,6 +1,6 @@
 import NameAndDesignation from "./NameAndDesignation";
 import SocialLinks from "./SocialLinks";
-import displayImg from "../../../assets/DeveloperImg/displayImg.png";
+import displayImg from "../../../assets/DeveloperImg/displayImg.gif";
 
 
 const Banner = () => {
