@@ -1,6 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 import icon from "../../assets/Icons/icon-avator-64.png";
 import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 
 
 
@@ -14,10 +15,10 @@ const Navbar = () => {
         const handleScroll = () => {
             const scrollPosition = window.scrollY;
             const navBarHight = document.getElementById('nav-bar-menu').offsetHeight;
-            
-            if(scrollPosition > navBarHight) {
+
+            if (scrollPosition > navBarHight) {
                 setNavScroll(true)
-            } else{
+            } else {
                 setNavScroll(false)
             }
         };
@@ -61,7 +62,11 @@ const Navbar = () => {
     </>
     return (
         <div>
-            <nav>
+            <motion.nav
+                initial={{ y: -100 }}
+                animate={{ y: 0 }}
+                transition={{duration: 2, type: 'spring', stiffness: 120}}
+            >
                 <div className="flex flex-wrap items-center justify-center mx-auto ">
                     <div className="flex md:fixed md:top-0 items-center md:order-2 p-4">
                         <div className="items-center justify-between w-full flex md:w-auto md:order-1" id="navbar-user">
@@ -69,7 +74,7 @@ const Navbar = () => {
                         </div>
                     </div>
                 </div>
-            </nav>
+            </motion.nav>
         </div>
     );
 };
