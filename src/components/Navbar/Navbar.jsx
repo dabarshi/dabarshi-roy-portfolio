@@ -8,6 +8,7 @@ import { useEffect, useState } from "react";
 const Navbar = () => {
     const [navScroll, setNavScroll] = useState(false);
 
+    // change navbar style for page scroll
     useEffect(() => {
 
         const handleScroll = () => {
@@ -60,20 +61,15 @@ const Navbar = () => {
     </>
     return (
         <div>
-
             <nav>
                 <div className="flex flex-wrap items-center justify-center mx-auto ">
-                    {/* User image and user dropdown section */}
                     <div className="flex md:fixed md:top-0 items-center md:order-2 p-4">
                         <div className="items-center justify-between w-full flex md:w-auto md:order-1" id="navbar-user">
                             {menuItems}
                         </div>
-
                     </div>
-
                 </div>
             </nav>
-
         </div>
     );
 };

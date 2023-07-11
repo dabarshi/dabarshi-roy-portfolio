@@ -8,7 +8,9 @@ const Main = () => {
     return (
         <div className="bg-gradient-to-r from-[#2c3e50] to-[#4ca1af]">
             <Navbar></Navbar>
-            <Outlet></Outlet>
+            <div className="my-20">
+                <Outlet></Outlet>
+            </div>
             <Footer></Footer>
         </div>
     );
