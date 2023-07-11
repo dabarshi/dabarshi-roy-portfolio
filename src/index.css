@@ -8,15 +8,17 @@
 
 
 @layer components {
-    .open-user-menu {
-        @apply z-50 absolute top-full right-0 my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow;
-    }
-
-    .hide-user-menu {
-        @apply z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow;
-    }
 
     .nav-item {
-        @apply items-center justify-between w-full md:flex md:w-auto md:order-1;
+        @apply flex font-medium py-4 text-sm md:text-base md:py-2 rounded-lg bg-transparent md:space-x-8 md:mt-0 md:border-0 md:bg-transparent shadow-2xl;
+    }
+    .nav-item-on-scroll {
+        @apply flex font-medium py-4 text-sm md:text-base md:p-0 rounded-lg md:md:bg-[#4ca1af] md:bg-opacity-10 md:backdrop-blur-sm md:py-2 md:space-x-8 md:mt-0 md:border-0 md:rounded-3xl shadow-2xl;
+    }
+    .nav-link {
+        @apply block py-2 px-2 md:pl-3 md:pr-4 rounded md:bg-transparent hover:text-white;
+    }
+    .nav-link-active {
+        @apply text-white md:bg-[#4ca1af] md:bg-opacity-20 rounded-3xl;
     }
 }
