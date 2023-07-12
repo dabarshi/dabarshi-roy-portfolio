@@ -5,7 +5,7 @@ import RecentProjects from "../RecentProjects/RecentProjects";
 
 const Home = () => {
     return (
-        <div className="md:my-48">
+        <div className="md:mt-48">
             <Banner></Banner>
             <div className="h-[1px] bg-black w-1/3 mx-auto my-10"></div>
             <MySkill></MySkill>

@@ -120,7 +120,7 @@ const MySkill = () => {
                 </div>
                 {/* with icons */}
                 <motion.div
-                    className='md:p-8 grid grid-cols-2 gap-5 items-center'
+                    className='md:p-8 border-t-2 p-4 mx-4 md:border-t-0 md:mx-0 grid grid-cols-2 gap-5 items-center'
                     initial={{ y: 100 }}
                     whileInView={{ y: 0 }}
                     transition={{ type: 'spring', stiffness: 40, duration: 1 }}

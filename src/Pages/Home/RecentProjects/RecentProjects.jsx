@@ -105,7 +105,7 @@ const RecentProjects = () => {
             <div className="text-center my-4">
                 <Link to='/projects'>
                     <div className="md:border-2 inline-block md:px-2 md:py-2 cursor-pointer rounded">
-                        <div className="bg-gray-900 px-3 py-1 rounded">
+                        <div className="bg-gray-900 hover:bg-opacity-20 px-3 py-1 rounded">
                             <p className="text-white">More...</p>
                         </div>
                     </div>
