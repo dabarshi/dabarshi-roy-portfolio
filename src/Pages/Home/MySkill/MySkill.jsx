@@ -18,7 +18,15 @@ const MySkill = () => {
                             className="bg-white bg-opacity-10 text-white pl-4 p-2"
                             initial={{ y: 100 }}
                             whileInView={{ y: 0 }}
-                            whileHover={{ boxShadow: '0px 0px 8px rgb(0,0,0, .5)' }}
+                            whileHover={{
+                                scale: 1.05,
+                                boxShadow: '0px 0px 8px rgb( 0, 0, 0, .5)'
+                            }}
+                            transition={{
+                                type: 'spring',
+                                stiffness: '110',
+                                ease: 'easeIn'
+                            }}
                         >
                             proficient in HTML, CSS, and JavaScript, creating interactive and aesthetically pleasing web pages.
                         </motion.li>
@@ -27,7 +35,15 @@ const MySkill = () => {
                             className="bg-white bg-opacity-10 text-white pl-4 p-2"
                             initial={{ y: 100 }}
                             whileInView={{ y: 0 }}
-                            whileHover={{ boxShadow: '0px 0px 8px rgb(0,0,0, .5)' }}
+                            whileHover={{
+                                scale: 1.05,
+                                boxShadow: '0px 0px 8px rgb(0,0,0, .5)'
+                            }}
+                            transition={{
+                                type: 'spring',
+                                stiffness: '110',
+                                ease: 'easeIn'
+                            }}
                         >
                             Create strong, responsive user interfaces with React expertise for seamless web experiences.
                         </motion.li>
@@ -36,7 +52,15 @@ const MySkill = () => {
                             className="bg-white bg-opacity-10 text-white pl-4 p-2"
                             initial={{ y: 100 }}
                             whileInView={{ y: 0 }}
-                            whileHover={{ boxShadow: '0px 0px 8px rgb(0,0,0, .5)' }}
+                            whileHover={{
+                                scale: 1.05,
+                                boxShadow: '0px 0px 8px rgb(0,0,0, .5)'
+                            }}
+                            transition={{
+                                type: 'spring',
+                                stiffness: '110',
+                                ease: 'easeIn'
+                            }}
                         >
                             Experienced in Node.js, developing server-side applications for efficient and scalable web solutions.
                         </motion.li>
@@ -45,7 +69,15 @@ const MySkill = () => {
                             className="bg-white bg-opacity-10 text-white pl-4 p-2"
                             initial={{ y: 100 }}
                             whileInView={{ y: 0 }}
-                            whileHover={{ boxShadow: '0px 0px 8px rgb(0,0,0, .5)' }}
+                            whileHover={{
+                                scale: 1.05,
+                                boxShadow: '0px 0px 8px rgb(0,0,0, .5)'
+                            }}
+                            transition={{
+                                type: 'spring',
+                                stiffness: '110',
+                                ease: 'easeIn'
+                            }}
                         >
                             Knowledgeable in MongoDB, designing and managing robust databases for data-driven applications.
                         </motion.li>
@@ -54,7 +86,15 @@ const MySkill = () => {
                             className="bg-white bg-opacity-10 text-white pl-4 p-2"
                             initial={{ y: 100 }}
                             whileInView={{ y: 0 }}
-                            whileHover={{ boxShadow: '0px 0px 8px rgb(0,0,0, .5)' }}
+                            whileHover={{
+                                scale: 1.05,
+                                boxShadow: '0px 0px 8px rgb(0,0,0, .5)'
+                            }}
+                            transition={{
+                                type: 'spring',
+                                stiffness: '110',
+                                ease: 'easeIn'
+                            }}
                         >
                             Proficient in Express, building RESTful APIs and handling server-side routing for streamlined communication.
                         </motion.li>
@@ -63,7 +103,16 @@ const MySkill = () => {
                             className="bg-white bg-opacity-10 text-white pl-4 p-2"
                             initial={{ y: 100 }}
                             whileInView={{ y: 0 }}
-                            whileHover={{ boxShadow: '0px 0px 8px rgb(0,0,0, .5)' }}
+                            whileHover={{
+                                scale: 1.05,
+                                boxShadow: '0px 0px 8px rgb( 0, 0, 0, .5)'
+                            }}
+                            transition={{
+                                type: 'spring',
+                                stiffness: '110',
+                                ease: 'easeIn'
+                            }}
+
                         >
                             Well-versed in full-stack development, combining front-end and back-end technologies for end-to-end web solutions.
                         </motion.li>
